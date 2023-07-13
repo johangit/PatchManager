@@ -8,6 +8,15 @@ Install the package via Composer:
 composer require johan-code/patch-runner
 ```
 
+Add the package's service provider to your config/app.php file:
+
+```php
+'providers' => [
+    // Other service providers...
+    \JohanCode\PatchRunner\PatchRunnerServiceProvider::class,
+],
+```
+
 Publish the package configuration file (optional):
 
 ```bash
@@ -30,7 +39,8 @@ The package provides the following console commands:
 
 ## Config File
 
-After publishing the package configuration file, you can modify the behavior of the patch runner by editing the config/patch-runner.php file.
+After publishing the package configuration file, you can modify the behavior of the patch runner by editing the
+config/patch-runner.php file.
 
 ## Usage
 
@@ -46,7 +56,8 @@ Here's an example of how to use the package:
 
 ## License
 
-This package is open-source software licensed under the MIT License. You can find the license text in the [LICENSE](LICENSE) file.
+This package is open-source software licensed under the MIT License. You can find the license text in
+the [LICENSE](LICENSE) file.
 
 
 
