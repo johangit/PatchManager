@@ -1,0 +1,15 @@
+{
+    "name": "johan-code/patch-runner",
+    "description": "PHP executable patching system",
+    "autoload": {
+        "psr-4": {
+            "JohanCode\\PatchRunner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mihkail Bulin"
+        }
+    ],
+    "require": {}
+}

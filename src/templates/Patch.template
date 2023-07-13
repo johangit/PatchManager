@@ -1,0 +1,13 @@
+<?php
+
+namespace App\{{_namespace_}};
+
+use JohanCode\PatchRunner\PatchInterface;
+
+class {{_classname_}} implements PatchInterface
+{
+    public function run(): void
+    {
+        // Patch Code Here
+    }
+}
